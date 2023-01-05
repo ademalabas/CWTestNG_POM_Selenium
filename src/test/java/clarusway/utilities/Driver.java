@@ -9,12 +9,13 @@ import java.time.Duration;
 public class Driver {
 
 private static WebDriver driver;
+    //static yaptık çünkü her classtan cagrilcak
+    private Driver(){// Driver objesi oluşturduk
 
-    private Driver(){
 
     }
 
-    public static WebDriver getDriver(){
+    public static WebDriver getDriver(){// private oldugu için getterini oluşturduk
 
         if(driver == null){
             WebDriverManager.chromedriver().setup();
