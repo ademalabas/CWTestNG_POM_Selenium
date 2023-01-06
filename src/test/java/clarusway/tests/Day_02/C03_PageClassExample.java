@@ -11,9 +11,13 @@ public class C03_PageClassExample {
     @Test
     public void test(){
 
+
+
         Driver.getDriver().get("http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html");
 
+
         HtmlGoodiesHomePage hp = new HtmlGoodiesHomePage();
+
 
         Actions actions = new Actions(Driver.getDriver());
 

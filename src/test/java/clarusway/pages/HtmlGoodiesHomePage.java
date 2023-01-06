@@ -34,6 +34,8 @@ public class HtmlGoodiesHomePage {
     public WebElement Madrid;
 
 
+
+
     @FindBy(id = "box106")
     public WebElement italy;
 
