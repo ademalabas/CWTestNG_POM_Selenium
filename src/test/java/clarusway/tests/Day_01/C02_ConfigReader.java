@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 public class C02_ConfigReader {
 
 
+
     @Test
     public void readConfig(){
 
