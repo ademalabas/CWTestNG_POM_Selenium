@@ -42,7 +42,7 @@ public void test(){
 //        - Choose price low to high.
     Select dropdown = new Select(Driver.getDriver().findElement(By.tagName("select")));
     dropdown.selectByValue("lohi");
-
+//////**** buraya kadar normal page class
 
 //        - Verify item prices are sorted from low to high with hard Assert.
     List<WebElement> itemPrices = Driver.getDriver().findElements(By.className("inventory_item_price"));
